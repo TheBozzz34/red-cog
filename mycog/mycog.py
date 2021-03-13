@@ -32,5 +32,15 @@ class Mycog(commands.Cog):
         """This does stuff!"""
         # Your code will go here
         await ctx.send(":pog:")
+		
+		
+		
+	@commands.command(name="guild")
+    async def guild(self, ctx):
+        """This does stuff!"""
+        # Your code will go here
+        await ctx.send(coggers)
+
+		
 
 	
