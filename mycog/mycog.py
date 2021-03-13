@@ -29,5 +29,6 @@ class Mycog(commands.Cog):
         """This does stuff!"""
         # Your code will go here
         await ctx.send(":pog:")
+		await ctx.reply("<:pog:>")
  
 	
