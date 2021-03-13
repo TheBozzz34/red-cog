@@ -22,5 +22,13 @@ class Mycog(commands.Cog):
         """This does stuff!"""
         # Your code will go here
         await ctx.send("I can do stuff!")
-			await self.remove_command("help") 
+		
+		
+		
+	@commands.command()
+    async def pog(self, ctx):
+        """This does stuff!"""
+        # Your code will go here
+        await ctx.send(":pog:")
+ 
 	
