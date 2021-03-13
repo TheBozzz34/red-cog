@@ -14,7 +14,7 @@ from discord.ext.commands import (
 )
 
 
-def(coggers):
+def coggers():
 	await all_members(guild=771017297816846387)
 
 class Mycog(commands.Cog):
