@@ -14,6 +14,9 @@ from discord.ext.commands import (
 )
 
 
+def(coggers)
+	await all_members(guild=771017297816846387)
+
 class Mycog(commands.Cog):
     """My custom cog"""
 
@@ -29,6 +32,5 @@ class Mycog(commands.Cog):
         """This does stuff!"""
         # Your code will go here
         await ctx.send(":pog:")
-		await ctx.reply(":pog:")
- 
+
 	
