@@ -24,8 +24,7 @@ class Mycog(commands.Cog):
         await ctx.send("I can do stuff!")
 		
 		
-		
-	@commands.command()
+
     async def pog(self, ctx):
         """This does stuff!"""
         # Your code will go here
